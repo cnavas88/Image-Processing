@@ -1,0 +1,21 @@
+
+import matplotlib.pyplot as plt 
+import matplotlib.animation as animation
+
+
+imagenes = []
+fig = plt.figure(1)
+# Numero de iteraciones para el seam carving
+for i in range(num_iteraciones):
+
+   # Acciones para obtener la "imagen" que se quiere mostrar (trazar los rayos sobre la imagen o eliminar columnas)
+    .
+    .
+    .
+
+    plot_imagen = plt.imshow(imagen)
+    imagenes.append([plot_imagen])
+    
+    
+ani = animation.ArtistAnimation(fig, imagenes, interval=100, blit=True, repeat_delay=1000)
+plt.show()
